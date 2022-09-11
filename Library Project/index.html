@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>My books</title>
+</head>
+<body>
+	<section class="head">
+		<p class="title-p1">My<span class="title-p2">books</span> </p>
+	</section>
+
+	<section class="main-page">
+
+		<section class="books-container">
+			<p class="lib-title">Library</p>
+			<div class="biblio">
+
+				<!-- Base of a book's card -->
+				<!-- <div class="book">
+					<p class="book-title">Le seigneur des Anneaux</p>
+					<p class="auth">Author:J. R.R. Tolkien</p>
+					<p class="year-of">Publied: 03/03/1943</p>
+					<center>
+						<button class="remove-btn">Remove</button>
+					</center>
+					<input type="checkbox" class="read-btn">Read
+				</div> -->
+				
+			</div>
+		</section>
+	
+		<section class="lateral-bar">
+	
+			<section class="add-book">
+				<p class="ab-title">Add a new book</p>
+				<form action="">
+		
+					<div class="form-book">
+						<label for="title">Title</label>
+						<input type="text" id="title" required minlength="1" maxlength="15">
+			
+					</div>
+					<div class="form-book">
+			
+						<label for="author">Author</label>
+						<input type="text" id="author" required minlength="1" maxlength="15">
+					</div>
+					<div class="form-book">
+						<label for="year">Year of Publication</label>
+						<input type="tel" id="year" required minlength="1" maxlength="15">
+			
+					</div>
+
+					<div class="form-book">
+						<center>
+							<input type="checkbox" class="read-btn">Read
+
+						</center>
+					</div>
+		
+					<div class="frm-conf">
+						<input type="submit" value="Add" id="create-book">
+					</div>
+		
+				</form>
+			</section>
+		
+		
+			<section class="news">
+				<p class="an-title">News</p>
+				<div class="all-news">
+					<div class="news-cont">
+						<p class="n-title">Lands of Joy is available</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					</div>
+					<div class="news-cont">
+						<p class="n-title">Game of Crown is available</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					</div>
+				</div>
+		
+			</section>
+		</section>
+	</section>
+
+
+	<script src="./script.js"></script>
+</body>
+</html>
